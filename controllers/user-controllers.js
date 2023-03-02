@@ -5,6 +5,7 @@ module.exports = {
   // Get all Users
   getUser(req, res) {
     User.find()
+    .populate({ path: 'thoughts'})
       .then((users) => res.json(users))
       .catch((err) => res.status(500).json(err));
   },
