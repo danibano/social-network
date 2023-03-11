@@ -1,4 +1,4 @@
-# Social Netwrok
+# Social Network
 [![MIT](https://img.shields.io/badge/license-MIT-blue)](https://spdx.org/licenses/MIT.html)
 
 ## Description
